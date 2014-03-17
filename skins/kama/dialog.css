@@ -479,6 +479,11 @@ a.cke_dialog_ui_button_ok
 	background-position: 0 -1144px;
 }
 
+a.cke_dialog_ui_button_ok .cke_dialog_ui_button
+{
+    color: #fff;
+}
+
 a.cke_dialog_ui_button_ok span
 {
 	background: transparent url(images/sprites.png) no-repeat scroll right -1216px;
@@ -493,6 +498,12 @@ a.cke_dialog_ui_button_ok span
 a.cke_dialog_ui_button_cancel
 {
 	background-position: 0 -1105px;
+    color: #fff;
+}
+
+a.cke_dialog_ui_button_cancel .cke_dialog_ui_button
+{
+    color: #fff;
 }
 
 a.cke_dialog_ui_button_cancel span
@@ -509,7 +520,7 @@ span.cke_dialog_ui_button
 {
 	padding: 2px 10px;
 	text-align: center;
-	color: #222;
+	color: #000;
 	display: inline-block;
 	cursor: default;
 	min-width: 60px;
